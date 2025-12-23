@@ -1,0 +1,165 @@
+========== NAV ==========
+.nav__logo
+Ryzzi
+
+.nav__link
+Home - About - Projects - Resume - Contact
+
+
+========== HOME ==========
+.home__social
+https://www.linkryz.com/
+https://github.com/ryzzi
+https://RyzziOfficial.com/
+
+* Insert the professions into the js file (HOME TYPED JS), then save.
+
+.home__subtitle
+Hi, I'm a
+
+.home__title
+Ryzzi Official
+
+.home__description
+Web developer and designer based in Lima, Peru, specializing 
+in creating websites for businesses. See my portfolio, which 
+includes modern websites, designs, and more.
+
+.home__buttons
+Download CV
+Projects
+
+
+========== ABOUT ==========
+.section__title
+About Me
+
+.about__description
+I am a web developer and designer specializing in creating 
+modern, functional, and visually appealing websites. I combine 
+creativity and functionality to transform ideas into intuitive 
+interfaces, balancing design, usability, and quality code.
+
+.button
+Contact Me
+
+.about__subtitle
+Skills
+
+.about__item
+HTML
+CSS
+JavaScript
+Git
+GitHub
+python
+
+
+========== PROJECTS ==========
+.section__title
+Projects
+
+.projects__title
+Protofolio Website
+Coffee Website
+Business Design
+Food Design
+IA Website & Design
+
+.projects__description 
+Creation, design and development of a website for a user.
+
+.button
+View Project
+
+
+========== RESUME ==========
+.section__title
+My Resume
+
+.resume__subtitle
+Experience
+Education
+
+.resume__title .resume__info .resume__description
+Frontend Developer
+NebulaTech
+2024 - Present
+Building fast and maintainable interfaces for web applications.
+
+Web Designer
+Pixel Studio
+2020 - 2022
+Page design and visual systems focused on usability.
+
+========== CONTACT ==========
+.section__title
+Contact Me
+
+.contact__input placeholder
+Names
+Email
+Message
+
+.button
+Send Message
+
+.contact__message
+Message sent successfully ✅
+
+.contact__address
+RyzziDev@email.com
++62 813-5119-7771
+Sulawesi tengara,Kendari
+Available: Mon-Fri, 9AM-6PM
+
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://t.me/RyzziOfficial
+
+
+========== CONTACT JS ==========
+The code for sending emails is a sample test.
+
+Create your account at https://www.emailjs.com/ 
+and follow the instructions in the video and images 
+to send emails with your account.
+
+// serviceID - templateID - #form - publicKey
+
+   // Show sent message
+      Message sent successfully ✅
+
+   // Remove message after five seconds
+
+   // Clear input fields
+
+   // Show error message
+      Message not sent (service error) ❌
+
+Subject *
+New message from {{user_name}}
+
+Content *
+Names: {{user_name}}
+
+Email: {{user_email}}
+
+Message: {{user_message}}
+
+Best wishes,
+EmailJS team
+
+
+========== FOOTER ==========
+.footer__logo
+ryz
+
+.footer__links
+Home - About - Projects
+
+.footer__social
+https://www.facebook.com/ryzzishopv1
+https://www.instagram.com/ryzzidevv1/
+
+.footer__copy
+&#169; All Rights Reserved By Ryzzi Official
